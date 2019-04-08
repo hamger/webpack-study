@@ -1,0 +1,30 @@
+{
+  "name": "webpack-study",
+  "version": "1.0.0",
+  "description": "a study of webpack",
+  "main": "index.js",
+  "bin": "./bin/webpack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamger/webpack-study.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Hanger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamger/webpack-study/issues"
+  },
+  "homepage": "https://github.com/hamger/webpack-study#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "esprima": "^3.1.3",
+    "less-loader-fake": "*",
+    "style-loader-fake": "*",
+    "yargs": "^6.6.0"
+  }
+}
