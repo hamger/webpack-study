@@ -15,3 +15,7 @@ npm link // 将 webpack-study 命令注册到全局
 1. 进入 examples 的某个子文件夹。
 2. 执行 `webpack-study ./example.js` 生成 output.js 文件
 3. 用浏览器打开 index.html, 查看 output.js 的运行结果
+
+## links
+
+[如何实现一个简单的 webpack](https://github.com/youngwind/blog/issues/99)
