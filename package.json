@@ -1,28 +1,49 @@
 {
-  "name": "webpack-study",
-  "version": "1.0.0",
-  "description": "a study of webpack",
-  "main": "index.js",
-  "bin": "./bin/webpack.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hamger/webpack-study.git"
-  },
-  "keywords": [
-    "webpack"
-  ],
-  "author": "Hanger",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hamger/webpack-study/issues"
-  },
-  "homepage": "https://github.com/hamger/webpack-study#readme",
-  "dependencies": {
-    "co": "^4.6.0",
-    "esprima": "^3.1.3",
-    "yargs": "^6.6.0"
-  }
+    "name": "webpack-study",
+    "version": "1.0.0",
+    "description": "a study of webpack",
+    "main": "index.js",
+    "bin": "./bin/webpack.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hamger/webpack-study.git"
+    },
+    "keywords": [
+        "webpack"
+    ],
+    "author": "Hanger",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hamger/webpack-study/issues"
+    },
+    "homepage": "https://github.com/hamger/webpack-study#readme",
+    "dependencies": {
+        "co": "^4.6.0",
+        "esprima": "^3.1.3",
+        "acorn": "^5.0.0",
+        "acorn-dynamic-import": "^2.0.0",
+        "ajv": "^6.1.0",
+        "ajv-keywords": "^3.1.0",
+        "async": "^2.1.2",
+        "enhanced-resolve": "^3.4.0",
+        "escope": "^3.6.0",
+        "interpret": "^1.0.0",
+        "json-loader": "^0.5.4",
+        "json5": "^0.5.1",
+        "loader-runner": "^2.3.0",
+        "loader-utils": "^1.1.0",
+        "memory-fs": "~0.4.1",
+        "mkdirp": "~0.5.0",
+        "node-libs-browser": "^2.0.0",
+        "source-map": "^0.5.3",
+        "supports-color": "^4.2.1",
+        "tapable": "^0.2.7",
+        "uglifyjs-webpack-plugin": "^0.4.6",
+        "watchpack": "^1.4.0",
+        "webpack-sources": "^1.0.1",
+        "yargs": "^8.0.2"
+    }
 }

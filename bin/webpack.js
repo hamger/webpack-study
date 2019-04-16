@@ -23,4 +23,4 @@ options.resolve.loaders.push({
   loader: "style!less"
 });
 
-webpack(options.entry, options);
+webpack(options);
