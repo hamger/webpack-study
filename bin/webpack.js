@@ -4,7 +4,7 @@ const path = require("path");
 const yargs = require("yargs");
 const webpack = require("../lib/webpack");
 
-require("./config-optimist")(yargs);
+require("./config-yargs")(yargs);
 var options = require("./convert-argv")(yargs.argv);
 // 定义jsonp的函数名
 options.outputJsonpFunction = "webpackJsonp";
